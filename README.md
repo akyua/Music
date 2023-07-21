@@ -13,7 +13,7 @@ Music is a Java practice project, the objective is to use some Object-Oriented P
 
 <div align="center">
 
-![music](https://github.com/akyua/Music/assets/75745796/da682f8c-b6b7-45fe-bbef-1215636cfbe3)
+![music](https://github.com/akyua/Music/assets/75745796/756b1818-5e9a-4aef-9ac8-f1014ed34402)
 
 </div>
 
