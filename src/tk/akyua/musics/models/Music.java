@@ -28,4 +28,13 @@ public class Music extends Audio{
     public void setGenre(String genre) {
         this.genre = genre;
     }
+
+    @Override
+    public int getClassification() {
+        if(this.getTotalReproductions() > 2000 ){
+            return 10;
+        } else {
+            return 6;
+        }
+    }
 }

@@ -1,6 +1,7 @@
 package src.tk.akyua.musics.main;
 
 import src.tk.akyua.musics.models.Music;
+import src.tk.akyua.musics.models.MyFavorites;
 import src.tk.akyua.musics.models.Podcast;
 
 public class Main {
@@ -30,5 +31,9 @@ public class Main {
         for (int i = 0; i < 1000; i++){
             myPodcast.like();
         }
+
+        MyFavorites favorites = new MyFavorites();
+        favorites.include(myPodcast);
+        favorites.include(myMusic);
     }
 }
